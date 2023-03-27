@@ -22,4 +22,4 @@ Markdown語法說明 : https://markdown.tw/
 ## 作業連結區
 
 [HW1](https://github.com/deng41075010h/LAT/blob/main/20230308/HW1_20230308.ipynb)
-
+[HW2}(https://github.com/deng41075010h/LAT/blob/main/20230322/HW2_20230322.ipynb)
