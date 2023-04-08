@@ -24,3 +24,5 @@ Markdown語法說明 : https://markdown.tw/
 [HW1](https://github.com/deng41075010h/LAT/blob/main/20230308/HW1_20230308.ipynb)
 
 [HW2](https://github.com/deng41075010h/LAT/blob/main/20230322/HW2_20230322.ipynb)
+
+[HW3](https://github.com/deng41075010h/LAT/blob/main/20230329/HW3_test.ipynb)
