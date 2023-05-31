@@ -4,7 +4,7 @@
 
 ![Alt text](大學索引系統.png)
 
-> Pandas資料處理
+> Pandas資料分析
 
 詳見 [data附檔](https://github.com/deng41075010h/LAT/tree/main/finall%20project/data)
 
