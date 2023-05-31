@@ -13,7 +13,7 @@
 
 > 系級:電機系二年級
 
->課程筆記區、[作業連結區](https://github.com/deng41075010h/LAT/#%E4%BD%9C%E6%A5%AD%E9%80%A3%E7%B5%90%E5%8D%80)、專題連結區
+>課程筆記區、[作業連結區](https://github.com/deng41075010h/LAT/#%E4%BD%9C%E6%A5%AD%E9%80%A3%E7%B5%90%E5%8D%80)、專題連結區(https://github.com/deng41075010h/LAT/edit/main/README.md#%E5%B0%88%E9%A1%8C%E9%80%A3%E7%B5%90%E5%8D%80)
 
 Markdown語法說明 : https://markdown.tw/
 
@@ -30,6 +30,10 @@ Markdown語法說明 : https://markdown.tw/
 [HW4](https://github.com/deng41075010h/LAT/tree/main/20230503)
 
 [HW5](https://github.com/deng41075010h/LAT/tree/main/20230517)
+
+---------------------------------------------
+
+## 專題連結區
 
 [Finall profect](https://github.com/deng41075010h/LAT/tree/main/finall%20project)
 
