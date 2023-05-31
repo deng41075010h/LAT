@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>大學索引系統</title>
+    <style>
+      .home-button {
+          background-color: #4a4f4a;
+          border: none;
+          color: white;
+          padding: 10px 20px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin-bottom: 10px;
+          cursor: pointer;
+      }
+  </style>
+</head>
+<body>
+    <h1>大學索引系統</h1>
+
+    <!-- 搜索框 -->
+    <form action="/" method="get">
+        <input type="text" name="search_query" placeholder="搜尋學校">
+        <button type="submit">搜尋</button>
+    </form>
+
+    <!-- 排序連結 -->
+    <p>排序方式：
+        <a href="/?sort_by=Rank">Rank</a> |
+        <a href="/?sort_by=總分">總分</a> |
+        <a href="/?sort_by=A.學術成就">A.學術成就</a> |
+        <a href="/?sort_by=B.教學環境">B.教學環境</a> |
+        <a href="/?sort_by=C.國際化程度">C.國際化程度</a> |
+        <a href="/?sort_by=D.產學績效">D.產學績效</a>
+    </p>
+
+
+    <!-- 顯示表格 -->
+<table>
+    <thead>
+      <tr>
+        <th>Rank&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        <th>Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        <th>總分&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        <th>A.學術成就&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        <th>B.教學環境&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        <th>C.國際化程度&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        <th>D.產學績效&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in df_filtered %}
+      <tr>
+        <td>{{ row['Rank'] }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+        <td>{{ row['Name'] }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+        <td>{{ row['總分'] }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+        <td>{{ row['A.學術成就'] }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td>{{ row['B.教學環境'] }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td>{{ row['C.國際化程度'] }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td>{{ row['D.產學績效'] }}</td>
+      </tr>
+      {% endfor %}
+
+    </tbody>
+  </table>
+
+  <br>
+  
+  <!-- 返回首頁按钮 -->
+  <button class="home-button" onclick="location.href='/'">返回首頁</button>
+
+</body>
+</html>
