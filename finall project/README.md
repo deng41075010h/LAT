@@ -4,11 +4,11 @@
 
 ![Alt text](大學索引系統.png)
 
-> Pandas資料分析
+> Pandas 資料分析
 
  [data附檔](https://github.com/deng41075010h/LAT/tree/main/finall%20project/data)
 
-> 網頁呈現
+> Python Flask 網頁呈現
   
 demo附檔為第一版
 
