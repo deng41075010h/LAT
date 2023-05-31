@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>大學索引系統</title>
+</head>
+<body>
+    <h1>大學索引系統</h1>
+
+    <!-- 搜索框 -->
+    <form action="/" method="get">
+        <input type="text" name="search_query" placeholder="搜尋學校">
+        <button type="submit">搜尋</button>
+    </form>
+
+    <!-- 排序連結 -->
+    <p>排序方式：
+        <a href="/?sort_by=指標1">指標1</a> |
+        <a href="/?sort_by=指標2">指標2</a> |
+        <a href="/?sort_by=指標3">指標3</a>
+    </p>
+
+
+    <!-- 顯示表格 -->
+<table>
+    <thead>
+      <tr>
+        <th>學校名稱</th>
+        <th>指標1</th>
+        <th>指標2</th>
+        <th>指標3</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in df_filtered %}
+      <tr>
+        <td>{{ row['學校名稱'] }}</td>
+        <td>{{ row['指標1'] }}</td>
+        <td>{{ row['指標2'] }}</td>
+        <td>{{ row['指標3'] }}</td>
+      </tr>
+      {% endfor %}
+
+    </tbody>
+  </table>
+</body>
+</html>
