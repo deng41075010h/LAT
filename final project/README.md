@@ -4,6 +4,13 @@
 
 ![Alt text](大學索引系統.png)
 
-詳見
-demo附檔為第一版
-final附檔為最終版
+
+> Python Pandas資料分析
+
+data
+
+> 網頁呈現
+
+demo為第一測試版
+
+final為最終版
