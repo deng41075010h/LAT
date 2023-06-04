@@ -35,5 +35,5 @@ Markdown語法說明 : https://markdown.tw/
 
 ## 專題連結區
 
-[Finall profect](https://github.com/deng41075010h/LAT/tree/main/finall%20project)
+[Final profect](https://github.com/deng41075010h/LAT/tree/main/final%20project)
 
